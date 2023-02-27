@@ -22,7 +22,7 @@
   
   ### Description
   
-  I created a role playing game using my javascript skills. There are one Wizard and three monsters. User clicks "Attack" button, the game starts! If you want to play this game, you can click live website link above.
+  I created a role playing game using my javascript skills. There are one Wizard and three monsters. If User clicks "Attack" button, the game starts! If you want to play this game, you can click live website link above.
 
 
   ### What I Learned?
