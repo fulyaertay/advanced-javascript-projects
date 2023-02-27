@@ -1,11 +1,14 @@
 import characterData from './data.js'
 import Character from './Character.js'
 
-function attack(){
+function attack() {
     wizard.getDiceHtml()
     orc.getDiceHtml()
+    wizard.takeDamage(orc.currentDiceScore)
+    orc.takeDamage(wizard.currentDiceScore)
     render()
 }
+
 
 function render() {
     document.getElementById('hero').innerHTML = wizard.getCharacterHtml();
