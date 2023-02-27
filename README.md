@@ -13,9 +13,8 @@
 
   ## Projects
 
-  ### 1-Role Playing Game
+  ### 1-Role Playing Game: [Live Link](https://scrimba-role-playing-game.netlify.app/)
   
-  ### [Live Site Link](https://scrimba-role-playing-game.netlify.app/)
   
   ### Visual Representation of the App;
   ![image](./1-role-playing-game/role-playing.gif)
