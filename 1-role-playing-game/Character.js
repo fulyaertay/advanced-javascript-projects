@@ -1,6 +1,5 @@
 import { getDiceRollArray, getDicePlaceholderHtml } from './utils.js'
 
-
 function Character(data) {
     Object.assign(this, data)
 
@@ -13,21 +12,26 @@ function Character(data) {
             }).join("")
     }
     
-    this.takeDamage = function(attackScoreArray){
 /*
 CHALLENGE
-1. In the takeDamage method, use what you have just learned
-to reduce attackScoreArray to a single number.
-2. Store that number in a const called totalAttackScore
-3. Decrement the health score by totalAttackScore
+1. Add a line of code inside the body of the if statement
+in the takeDamage method which will give the character a 
+new boolean "dead" when health reaches zero. It can be initialised with "true".
+2. For now, log out that boolean when the character's 
+health reaches zero.
 */
-
-    const totalAttackScore = attackScoreArray.reduce(function(total, num){
-        return total + num
-    })
-    this.health -= totalAttackScore
-    }
     
+    this.takeDamage = function(attackScoreArray){  
+        const totalAttackScore = attackScoreArray.reduce(function(total, num) {
+            return total + num
+            })
+        this.health -= totalAttackScore
+        if (this.health <= 0){
+            this.dead = true   
+            this.health = 0
+        } 
+    }
+ 
     this.getCharacterHtml = function () {
         const { elementId, name, avatar, health, diceCount } = this;
 
