@@ -25,6 +25,24 @@
   I created a role playing game using my javascript skills. There are one Wizard and three monsters. If User clicks "Attack" button, the game starts! If you want to play this game, you can click live website link above.
 
 
+  
+  
+  ### 2-Tindog App
+  
+  
+  ### Screenshots of the App;
+  ![image](./1-role-playing-game/tindog-app.png)
+  
+  ![image](./1-role-playing-game/reject-dog.png)
+  
+  ![image](./1-role-playing-game/no-dogs.png)
+  
+  
+  ### Description
+  
+  I created a tindog app called tinder of dogs using my javascript skills. When user clicks "Reject" or "Accept" buttons, dogs are rejected or accepted and rendered another dog in the html
+
+
   ### What I Learned?
   
 
