@@ -18,7 +18,6 @@ body {
     background-color: white;
     border: 1px solid rgb(90, 87, 87);
     padding: 20px;
-
     display: flex;
     flex-direction: column;
 }
@@ -38,6 +37,7 @@ body {
 }
 .image-content{
     width:100%;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -88,19 +88,24 @@ button:hover{
 
 
 
-@media (min-width:420px){
+@media (min-width:767px){
     .image-content{
         width:50%;
         margin:auto;
     }
     .dog-image{
         background-size: cover;
+        height: 900px;
         
     }
     .badge-like, .badge-nope{
         width:20%;
         padding-left: 10px;
         transform: rotate(-35deg) translateY(30px);
+    }
+    .image-text{
+        padding-left: 20px;
+        padding-top: 780px;
     }
     
 
