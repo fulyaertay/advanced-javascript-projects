@@ -1,5 +1,5 @@
-const dogs = [
-    {
+const dogs = {
+    
         Rex:{
             name: "Rex",
             avatar: "./images/dog-rex.jpg",
@@ -10,7 +10,7 @@ const dogs = [
 
         }
        
-    },{
+    ,
         Bella:{
             name: "Bella",
             avatar: "./images/dog-bella.jpg",
@@ -20,9 +20,10 @@ const dogs = [
             hasBeenLiked: false
 
         }
+    
        
-    },
-    {
+    ,
+    
         Teddy: {
             name: "Teddy",
             avatar: "./images/dog-teddy.jpg",
@@ -33,7 +34,7 @@ const dogs = [
 
         }
   
-    }
-]
+    
+}
 
 export default dogs
