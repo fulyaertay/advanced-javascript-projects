@@ -16,7 +16,7 @@ body {
     width:90%;
     margin: 80px auto;
     background-color: white;
-    border: 1px solid red;
+    border: 1px solid rgb(90, 87, 87);
     padding: 20px;
 
     display: flex;
