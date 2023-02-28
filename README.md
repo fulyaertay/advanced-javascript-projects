@@ -31,7 +31,7 @@
   
   
   ### Screenshots of the App;
-  ![image](./2-tindog-app/tindog-app.png)
+  ![image](./2-tindog-app/tindog.png)
   
   ![image](./2-tindog-app/reject-dog.png)
   
