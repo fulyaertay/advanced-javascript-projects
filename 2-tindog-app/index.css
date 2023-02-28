@@ -69,6 +69,21 @@ img{
 .cross-icon, .like-icon {
     width: 40px;
 }
+
+.badge-like{
+    width:30%;
+    padding-left: 10px;
+    transform: rotate(-35deg) translateY(30px);
+}
+
+.badge-nope{
+    width:30%;
+    padding-left: 10px;
+    transform: rotate(-35deg) translateY(30px);
+}
+
+
+
 @media (min-width:420px){
     .image-content{
         width:50%;
