@@ -4,6 +4,29 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: antiquewhite;
 
+
+}
+body {
+    background-color: antiquewhite;
+}
+.container{
+    width:90%;
+    margin: 80px auto;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+img{
+    width:5%;
+}
+.logo{
+    width:10%
 }
