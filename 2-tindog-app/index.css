@@ -17,7 +17,8 @@ body {
     margin: 80px auto;
     background-color: white;
     border: 1px solid red;
-    height: 800px;
+    padding: 20px;
+
     display: flex;
     flex-direction: column;
 }
@@ -42,16 +43,13 @@ img{
 }
 .dog-image{
     background-image: url("./images/dog-rex.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
     height:500px;
+    margin-bottom: 10px;
     
 
 }
 .image-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
     padding-left: 20px;
     padding-top: 400px;
 }
@@ -59,10 +57,22 @@ img{
    color: white;
 }
 
+.choose-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cross-icon{
+    margin-right: 30px;
+}
 @media (min-width:420px){
     .image-content{
         width:50%;
         margin:auto;
+    }
+    .dog-image{
+        background-size: cover;
+        
     }
     
 
