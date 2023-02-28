@@ -28,12 +28,16 @@ function likedDog() {
     document.querySelector(
       ".badges"
     ).innerHTML = `<img src="./images/badge-like.png" class="badge-like" />`;
-
+    document.querySelector(".cross-icon").classList.add("display")
+    document.querySelector(".like-icon").classList.add("display")
     setTimeout(nextRender, 1000);
   } else {
     document.querySelector(
       ".badges"
     ).innerHTML = `<img src="./images/badge-like.png" class="badge-like" />`;
+    document.querySelector(".cross-icon").classList.add("display")
+    document.querySelector(".like-icon").classList.add("display")
+    
     setTimeout(endMessage, 1000);
   }
 }
@@ -53,6 +57,8 @@ function render() {
   document.querySelector(".dog-image").innerHTML = firstDog.getDogHtml();
 }
 function nextRender() {
+    document.querySelector(".cross-icon").classList.remove("display")
+    document.querySelector(".like-icon").classList.remove("display")
   let dog = getNewDogs();
   document.querySelector(".dog-image").innerHTML = dog.getDogHtml();
 }

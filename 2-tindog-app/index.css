@@ -94,6 +94,9 @@ button {
     text-align: center;
     margin:20px;
 }
+.display{
+    display: none;
+}
 
 @media (min-width: 767px) {
 
