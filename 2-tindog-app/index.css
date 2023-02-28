@@ -70,6 +70,10 @@ button{
     border-radius: 50%;
     border:none;
     background-color: antiquewhite;
+    box-shadow: 2px 4px rgb(99, 99, 100);
+}
+button:hover{
+    background-color:white;
 }
 .cross-icon{
     margin-right: 30px;   
