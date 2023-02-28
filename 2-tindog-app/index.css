@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
   margin: 80px auto;
   background-color: white;
   border: 1px solid rgb(90, 87, 87);
@@ -98,12 +98,13 @@ button {
 @media (min-width: 767px) {
 
   .image-content {
-    width: 50%;
-    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .dog-image {
     background-size: cover;
-    height: 900px;
+    width:300px;
   }
   .badge-like,
   .badge-nope {
