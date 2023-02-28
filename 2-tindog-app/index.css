@@ -45,6 +45,18 @@ img{
     background-size: contain;
     background-repeat: no-repeat;
     height:500px;
+    
+
+}
+.image-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 20px;
+    padding-top: 400px;
+}
+.dog-name,.dog-info{
+   color: white;
 }
 
 @media (min-width:420px){
