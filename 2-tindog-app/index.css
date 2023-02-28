@@ -61,9 +61,13 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .cross-icon{
-    margin-right: 30px;
+    margin-right: 30px;   
+}
+.cross-icon, .like-icon {
+    width: 40px;
 }
 @media (min-width:420px){
     .image-content{
@@ -74,6 +78,7 @@ img{
         background-size: cover;
         
     }
+
     
 
 }
