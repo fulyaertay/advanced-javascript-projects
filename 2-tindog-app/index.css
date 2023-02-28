@@ -70,17 +70,12 @@ img{
     width: 40px;
 }
 
-.badge-like{
+.badge-like, .badge-nope{
     width:30%;
     padding-left: 10px;
     transform: rotate(-35deg) translateY(30px);
 }
 
-.badge-nope{
-    width:30%;
-    padding-left: 10px;
-    transform: rotate(-35deg) translateY(30px);
-}
 
 
 
@@ -93,7 +88,12 @@ img{
         background-size: cover;
         
     }
-
+    .badge-like, .badge-nope{
+        width:20%;
+        padding-left: 10px;
+        transform: rotate(-35deg) translateY(30px);
+    }
     
+
 
 }
