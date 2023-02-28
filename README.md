@@ -4,7 +4,8 @@
 
 - [Projects](#projects)
 
-  - [1-Role Playing Game](#nft-site)
+  - [1-Role Playing Game](#role-playing)
+  - [2-Tindog App](#tindog-app)
 
   ## Overview
 
@@ -23,6 +24,24 @@
   ### Description
   
   I created a role playing game using my javascript skills. There are one Wizard and three monsters. If User clicks "Attack" button, the game starts! If you want to play this game, you can click live website link above.
+
+
+  
+  
+  ### 2-Tindog App
+  
+  
+  ### Screenshots of the App;
+  ![image](./2-tindog-app/tindog.png)
+  
+  ![image](./2-tindog-app/reject-dog.png)
+  
+  ![image](./2-tindog-app/no-dogs.png)
+  
+  
+  ### Description
+  
+  I created a tindog app called tinder of dogs using my javascript skills. When user clicks "Reject" or "Accept" buttons, dogs are rejected or accepted and rendered another dog in the html
 
 
   ### What I Learned?
