@@ -30,7 +30,7 @@ body {
     padding: 10px;
 
 }
-img{
+.header-icon1,.header-icon2,.header-icon3{
     width:5%;
 }
 .logo{
@@ -63,11 +63,16 @@ img{
     align-items: center;
 
 }
+button{
+
+    width:85px;
+    height: 85px;
+    border-radius: 50%;
+    border:none;
+    background-color: antiquewhite;
+}
 .cross-icon{
     margin-right: 30px;   
-}
-.cross-icon, .like-icon {
-    width: 40px;
 }
 
 .badge-like, .badge-nope{
