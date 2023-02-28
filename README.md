@@ -31,11 +31,11 @@
   
   
   ### Screenshots of the App;
-  ![image](./1-role-playing-game/tindog-app.png)
+  ![image](./2-tindog-app/tindog-app.png)
   
-  ![image](./1-role-playing-game/reject-dog.png)
+  ![image](./2-tindog-app/reject-dog.png)
   
-  ![image](./1-role-playing-game/no-dogs.png)
+  ![image](./2-tindog-app/no-dogs.png)
   
   
   ### Description
