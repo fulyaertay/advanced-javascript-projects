@@ -4,7 +4,8 @@
 
 - [Projects](#projects)
 
-  - [1-Role Playing Game](#nft-site)
+  - [1-Role Playing Game](#role-playing)
+  - [2-Tindog App](#tindog-app)
 
   ## Overview
 
