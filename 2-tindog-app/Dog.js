@@ -5,6 +5,7 @@ class Dog {
 
   getDogHtml() {
     const { name, avatar, age, bio, hasBeenSwiped, hasBeenLiked } = this;
+    document.querySelector(".dog-image").style.backgroundImage=`url(${avatar})`
     return `
         <div class="badges">
            
