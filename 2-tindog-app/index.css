@@ -70,15 +70,19 @@ button {
   height: 85px;
   border-radius: 50%;
   border: none;
-  background-color: antiquewhite;
-  box-shadow: 2px 4px rgb(99, 99, 100);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px rgb(99, 99, 100);
+  cursor: pointer;
 }
-button:hover {
-  background-color: white;
+.cross-icon:hover {
+  background-color: rgb(252, 226, 226);
 }
 .cross-icon {
   margin-right: 30px;
 }
+.like-icon:hover {
+    background-color: rgb(219,255,244);
+  }
 
 .badge-like,
 .badge-nope {
