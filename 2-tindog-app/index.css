@@ -90,6 +90,10 @@ button {
   padding-left: 10px;
   transform: rotate(-35deg) translateY(30px);
 }
+.endMessage{
+    text-align: center;
+    margin:20px;
+}
 
 @media (min-width: 767px) {
   .image-content {
